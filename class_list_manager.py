@@ -12,7 +12,10 @@ def count_names(names):
 # Written by: Rawan (Task 2)
 def search_name(names, name):
     return name in names
-
+# Written by: Rama (Task 3)
+def sort_names (names) :
+    return sorted (names)
+    
 
 def main():
     print("Welcome to the Class List Manager!")
@@ -21,6 +24,7 @@ def main():
     # print("Number of names:", count_names(names))
     print("Number of names:", count_names(names))
     print("Search for Sara:", search_name(names, "Sara"))
+    print("Sorted names:", sort_names(names))
 
 
 main()
